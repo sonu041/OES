@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+
+/*
+	MAIN STYLES
+*/
+
+body, html {
+	background:#ededed;
+	height:100%;
+	line-height:20px;
+	font-size:14px;
+	color:#333;
+	font-family: Helvetica, Tahoma, sans-serif;
+	font-weight:normal;
+}
+h1, h2, h3 { font-family: 'Yanone Kaffeesatz', sans-serif; font-weight:bold; }
+.content h1 {
+	font-size:90px;
+	text-shadow:0 0 1px rgba(51,51,51,0.3);
+	text-align:center;
+	line-height:90px;
+}
+h2 {
+	font-size:36px;
+	line-height:36px;
+	text-shadow:0 0 1px rgba(51,51,51,0.2);
+	padding-bottom:5px;
+	margin-bottom:15px;
+	border-bottom:1px solid #ccc;
+}
+h3 {
+	font-size:30px;
+	line-height:38px;
+	margin-bottom:14px;
+}
+h4 {
+	font-size:16px;
+	line-height:24px;
+	font-weight:bold;
+}
+a:link, a:active, a:visited {
+	border:none;
+	outline:none;
+	color:#072B29;
+}
+#header {
+	/*width:1000px;
+	height:120px;*/
+	margin:0px auto;
+	margin-bottom:20px;
+
+}
+#accordion2 p {
+	margin-bottom:14px;
+}
+#accordion2 strong {
+	font-weight: bold !important;
+}
+#slide1 {
+	background:#f2f2f2;
+}
+#slide1 .content {
+	padding:20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif; font-weight:bold;
+}
+#slide1 h4 {
+	font-size:24px !important;
+	line-height:28px !important;
+}
+#slide1 .content ul {
+	list-style: square;
+	margin-top:15px;
+	margin-left:40px;
+}
+#slide1 .content li {
+	margin-bottom:10px;
+}
+#slide3 {
+	/*background:url(images/cool-bg.jpg) center center no-repeat;*/
+	color:#fff !important;
+}
+#slide3 .content {
+	padding:15px 20px;
+}
+#slide3 a {
+	color:#ddd;
+}
+#slide3 .content h1 {
+	text-align:left;
+	font-size:60px;
+}
+#slidorion2 {
+	width: 768px;			/* Set to slidorion width. Is equal to #slider + #accordion2 width */
+	height: 400px;			/* Set to slidorion height. Is equal to #slider and #accordion2 height */
+	position: relative;
+	left: 50%;
+	margin-left: -384px;
+	padding: 10px;
+	background: #cbcbcb;
+	border: 1px solid #bbb;
+	-webkit-box-shadow: 0 0 34px #bbb;
+	-moz-box-shadow: 0 0 34px #bbb;
+	box-shadow: 0 0 34px #bbb;
+}
+strong {
+	font-weight:bold;
+}
+#container {
+	width:800px;
+	margin:30px auto;
+	position:relative;
+}
+#container >div {
+	width:78%;
+	margin-bottom:30px;
+}
+#container > div > pre { 
+	background:#E2DBD1;
+	border:1px solid #D1BFA6;
+	color:#333;
+	font-family: Helvetica, Tahoma, sans-serif;
+	margin-bottom:20px;
+	padding: 5px 10px;
+	border-left: 10px solid #D1BFA6;
+}
+/*#options li {
+	margin:20px 0;
+	border-bottom:1px solid #ddd;
+}
+#options li p {
+	font-size:15px;
+	letter-spacing:0;
+	line-height:30px;
+}*/
+
+/*#footer {
+	height:200px;
+}*/
+
+
+
+
+
+
+
+

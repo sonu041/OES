@@ -1,0 +1,235 @@
+@import url("slidorion_style.css");
+
+html {
+	overflow-y: scroll;
+	/*background: #fff url('../images/html_bg.png') repeat-x scroll;*/
+}
+
+/* Website
+   -------------------------------- */
+#website {	
+	margin: 0 auto;
+	width: 956px;
+	position: relative;
+}
+
+#headerbar {
+	background-color:black;
+}
+#header {
+	/*margin: 0 auto; for slidorian */
+	/*width: 956px;*/
+	position: relative;
+	/*margin-bottom: 20px;*/
+}
+
+#banner {
+	height: 120px;
+}
+
+/* Header Login
+   -------------------------------- */
+#logologin {
+	height: 80px;
+	margin-left:100px;
+	margin-right:100px;
+}
+#logo {
+	float: left;
+	font-size:30px;
+	font-weight:bold;
+}
+#login {
+	float: right;
+}
+#menu {
+	background:#3C4042;
+	height: 42px;
+}
+
+/* Navigation
+   -------------------------------- */
+
+#navigation {
+	height: 41px;
+	/*float: left;*/
+	position: absolute;
+	/*top: 62px;*/
+	right: 320px;
+	/*border-top: 1px solid #ccc;*/
+	background:#3C4042;
+}
+
+#navigation ul,
+#navigation ul li {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 38px;
+}
+
+#navigation ul {
+	height: 41px;
+	/*background: url('../images/navigation.png') repeat-x 0 -41px;*/
+}
+
+#navigation ul li a {
+	float: left;
+	display: block;
+	height: 41px;
+	padding: 0 18px;
+	color: #fff;
+	text-decoration: none;
+	/*background: url('../images/navigation_s.png') no-repeat right top;*/
+	-webkit-transition: all 0.5s linear;
+        background:#3C4042;
+}
+
+#navigation ul li.selected a {
+	color: #fff;
+}
+
+#navigation ul li.last a{
+	background-image: none;
+}
+
+#navigation ul li a:hover {
+	color: #fff;
+	background-color:#0074d9;
+}
+
+/*Down menu*/
+
+#navigation li ul {
+	/*border-left: 1px solid #ccc;*/
+
+        /*background:#3C4042;*/
+        left: -999em;
+        margin: 35px 0 0;
+        position: absolute;
+        /*width: 160px;*/
+        z-index: 9999;        
+}
+
+#navigation li ul a {
+        width: 180px;
+	color: #fff;
+}
+
+#navigations ul li a:hover,
+#navigations ul li:hover > a {
+        color: #fff;
+        background:#3C4042;
+
+}
+
+#navigation li ul a:hover,
+#navigation ul li li:hover > a  {
+    	color: #fff;
+}
+
+#navigation li:hover ul {
+        left: auto;
+}
+
+#navigation li li ul {
+
+        margin: -1px 0 0 160px;
+        -webkit-border-radius: 0 10px 10px 10px;
+        -moz-border-radius: 0 10px 10px 10px;
+        border-radius: 0 10px 10px 10px;
+        visibility:hidden;
+}
+
+#navigation li li:hover ul {
+        visibility:visible;
+}
+/* Content
+   -------------------------------- */
+#content {
+	margin: 0 auto;
+	position: relative;
+	background-color:#ddd;
+}
+#footer {
+	/*background-color: #000;*/
+	border-top: 1px solid #ccc;
+	text-align:center; 
+	font-size:10px;
+	color:gray;
+	padding: 10px;
+}
+#accordion {
+	padding: 10px;
+}
+
+/* Username menu
+   -------------------------------- */
+#sddm{	
+	margin: 0;
+	padding: 0;
+}
+
+#sddm li{	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font: bold 11px arial;
+}
+
+#sddm li a{
+	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+#sddm li a:hover{
+	background: #49A3FF;
+}
+
+#sddm div{
+	/*position: absolute;*/
+	right: 1px;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2;
+	
+}
+
+#sddm div a{
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #EAEBD8;
+	color: #2875DE;
+	font: 11px arial;
+}
+
+#sddm div a:hover{
+	background: #49A3FF;
+	color: #FFF;
+}
+
+.insidecontent {
+	background: #E8E8E8;
+	padding:20px;
+	border: 1px solid #BBBBBB;
+	box-shadow: 0 0 34px #BBBBBB;
+	font-size:14px;
+	line-height:150%;
+	font-family: Verdana;
+}
+
